@@ -53,4 +53,4 @@ jobs:
             aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
             aws-region: us-east-1
       - name: List buckets
-        run: aws s3 cp funciones.py bigdata2025
+        run: aws s3 cp funciones.py s3://bigdata2025
